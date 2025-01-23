@@ -8,7 +8,6 @@ const swaggerUi = require('swagger-ui-express');
 // const swaggerDocs = require('./Utils/swagger');
 const apiRouter = require('./Routes/routes'); // Assuming 'router.js' is in the 'routes' folder
 
-
 // Middleware
 app.use(bodyParser.json());
 // Serve Swagger UI
