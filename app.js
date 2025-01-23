@@ -7,6 +7,7 @@ const PORT = 9000;
 const swaggerUi = require('swagger-ui-express');
 const apiRouter = require('./Routes/routes'); // Assuming 'router.js' is in the 'routes' folder
 
+
 // Middleware
 app.use(bodyParser.json());
 // Serve Swagger UI
